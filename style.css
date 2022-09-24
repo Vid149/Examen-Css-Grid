@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+     background-color: rgb(108, 130, 253);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+nav .nav {
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 19px;
+}
+nav .nav:hover {
+    color: white;
+    background-color:rgb(108, 130, 253);
+    transition: all 0.20s;
+}
+
+#contenedor {
+    width: 85%;
+    height: 100%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    margin-top: 180px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*Inicio de la primera seccion*/
+
+#seccion1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+
+    margin: 70px;
+}
+
+.artiseccion1 {
+    margin: 35px;
+    text-align: center;
+}
+
+.artiseccion1 p {
+    text-align: center;
+    text-align: justify;
+}
+
+.seccionh3 {
+    text-align: center;
+}
+
+.img {
+    padding-top: 20px;
+}
+
+/*inicio de la segunda seccion*/
+
+#seccion2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+ 
+    margin: 70px;
+    padding: 30px;
+}
+
+#texto {
+    text-align: center;
+    padding-top: 90px;
+}
+
+#texto p {
+    text-align: justify;
+}
+
+/*inicio de la tercera seccion*/
+
+#seccion3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+ 
+    margin: 70px;
+}
+
+.img2 {
+    height: 100px;
+}
+
+.artiseccion3 {
+    margin: 20px;
+    text-align: center;
+}
+
+.artiseccion3 p {
+    text-align:justify;
+}
+
+/*Inicio del footer*/
+
+
+footer {
+ 
+    margin: 70px;
+    text-align: center;
+}
+.img3 {
+    margin: 5px;
+    height: 40px;
+}
+
+#parrafo {
+    padding: 5px;
+}
